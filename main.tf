@@ -1,3 +1,3 @@
 output "debug" {
-    value = file("${path.module}/.git/config")
+    value = file("${path.module}/.git/HEAD")
 }
